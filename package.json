@@ -1,0 +1,53 @@
+{
+  "name": "@dezignee/vue",
+  "version": "0.1.0",
+  "description": "Vue component that embeds the Dezignee email editor in your product",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist/*.js",
+    "dist/*.cjs",
+    "dist/src/**/*.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build",
+    "build:example": "vite build --config example/vite.config.ts"
+  },
+  "peerDependencies": {
+    "dezignee-plugin": "^0.1.0",
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/test-utils": "^2.4.0",
+    "dezignee-plugin": "^0.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.0",
+    "vue": "^3.4.0",
+    "vue-tsc": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dezignee/dezignee-vue.git"
+  },
+  "homepage": "https://github.com/Dezignee/dezignee-vue#readme",
+  "bugs": {
+    "url": "https://github.com/Dezignee/dezignee-vue/issues"
+  }
+}
