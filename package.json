@@ -1,8 +1,16 @@
 {
   "name": "@dezignee/vue",
-  "version": "0.1.0",
-  "description": "Vue component that embeds the Dezignee email editor in your product",
+  "version": "0.1.2",
+  "description": "Vue component that embeds the Dezignee document editor in your product",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dezignee/dezignee-vue.git"
+  },
+  "homepage": "https://github.com/Dezignee/dezignee-vue#readme",
+  "bugs": {
+    "url": "https://github.com/Dezignee/dezignee-vue/issues"
+  },
   "type": "module",
   "sideEffects": false,
   "main": "./dist/index.cjs",
@@ -41,13 +49,5 @@
     "vite-plugin-dts": "^3.6.0",
     "vue": "^3.4.0",
     "vue-tsc": "^2.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dezignee/dezignee-vue.git"
-  },
-  "homepage": "https://github.com/Dezignee/dezignee-vue#readme",
-  "bugs": {
-    "url": "https://github.com/Dezignee/dezignee-vue/issues"
   }
 }

@@ -1,6 +1,6 @@
 # @dezignee/vue
 
-Vue component that embeds the Dezignee email editor in your product. It wraps the `dezignee-plugin` SDK: it mounts the editor, tears it down when your component unmounts, and keeps the editor in step with your props.
+Vue component that embeds the Dezignee document editor in your product. It wraps the `dezignee-plugin` SDK: it mounts the editor, tears it down when your component unmounts, and keeps the editor in step with your props.
 
 ```sh
 npm install @dezignee/vue
