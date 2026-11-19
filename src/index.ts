@@ -1,3 +1,3 @@
-export { DezigneeEditor } from './DezigneeEditor';
-export type { DezigneeEditorHandle, DezigneeEditorInstance, DezigneeEditorProps } from './types';
+export { DezigneeBuilder } from './DezigneeBuilder';
+export type { DezigneeBuilderHandle, DezigneeBuilderInstance, DezigneeBuilderProps } from './types';
 export type * from 'dezignee-plugin';

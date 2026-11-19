@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { DezigneeEditor, type DezigneeEditorHandle } from '../../src';
+import { DezigneeBuilder, type DezigneeBuilderHandle } from '../../src';
 
-const editor = ref<DezigneeEditorHandle | null>(null);
+const editor = ref<DezigneeBuilderHandle | null>(null);
 const sessionToken = ref<string | null>(null);
 
 onMounted(async () => {
@@ -16,6 +16,6 @@ onMounted(async () => {
   <p v-if="!sessionToken">Loading...</p>
   <template v-else>
     <button @click="editor?.editor?.exportHTML()">Export</button>
-    <DezigneeEditor ref="editor" :session-token="sessionToken" style="height: 600px" />
+    <DezigneeBuilder ref="editor" :session-token="sessionToken" style="height: 600px" />
   </template>
 </template>
