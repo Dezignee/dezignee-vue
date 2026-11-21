@@ -1,6 +1,6 @@
 {
   "name": "@dezignee/vue",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Vue component that embeds the Dezignee document editor in your product",
   "license": "MIT",
   "repository": {
@@ -36,14 +36,14 @@
     "build:example": "vite build --config example/vite.config.ts"
   },
   "peerDependencies": {
-    "dezignee-plugin": "^0.2.0",
+    "dezignee-plugin": "^0.3.0",
     "vue": "^3.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "@vitejs/plugin-vue": "^5.0.0",
     "@vue/test-utils": "^2.4.0",
-    "dezignee-plugin": "^0.2.0",
+    "dezignee-plugin": "^0.3.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "vite-plugin-dts": "^3.6.0",
